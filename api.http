@@ -1,0 +1,29 @@
+### mostrar todos los usuarios
+GET http://localhost:3000/api/users
+
+### mostrar un usuario 
+GET http://localhost:3000/api/users/2
+
+### check login
+POST http://localhost:3000/api/login
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJpYXQiOjE2MjYwNjYwNzV9.1234567890
+
+{
+    "email": "test2@test.com",
+    "password": "hashasgas"
+}
+
+### anadir un usuario
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJpYXQiOjE2MjYwNjYwNzV9.1234567890
+
+{
+    "name": "gsdgsdhsd",
+    "email": "test2@test.com",
+    "password": "hashasgas",
+    "age": 25   
+}
