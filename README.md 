@@ -1,0 +1,49 @@
+# Backend Node.js
+
+Un servidor backend construido con Node.js, Express y MySQL.
+
+## Características principales
+
+- 🚀 Servidor Express para manejo de rutas y middlewares
+- 🗃️ Conexión a base de datos MySQL usando MySQL2
+- 🔒 Autenticación segura con bcryptjs para hashing de contraseñas
+- 📁 Configuración mediante variables de entorno (dotenv)
+- 📦 Motor de plantillas EJS para vistas (opcional)
+- 🔄 Recarga automática en desarrollo con Nodemon
+
+## Requisitos previos
+
+- Node.js (v14 o superior)
+- npm (v6 o superior)
+- Servidor MySQL instalado y en ejecución
+
+## Instalación
+
+1. Clonar el repositorio:
+```bash
+git clone [URL_DEL_REPOSITORIO]
+
+npm install
+
+## Crear un archivo .env
+
+DB_HOST=localhost
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña
+DB_NAME=nombre_bd
+SECRET_KEY=mi_secreto_super_seguro
+PORT=3000
+
+## Crear la base de datos (Mysql)
+
+CREATE DATABASE IF NOT EXISTS nombre_bd;
+
+## Iniciar en modo desarrollo
+
+npm run dev
+
+## Build para el servidor
+
+npm run build
+
+ 

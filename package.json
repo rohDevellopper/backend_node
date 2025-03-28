@@ -8,7 +8,7 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hamid Ezzaki",
   "license": "ISC",
   "description": "",
   "dependencies": {
